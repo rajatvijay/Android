@@ -12,4 +12,25 @@
     <string name="button_login">Login</string>
     <string name="button_sign_up">Sign Up</string>
     <string name="title_activity_navigation_drawer">NavigationDrawerActivity</string>
+
+    <string-array name="navDrawerItems">
+        <item>Profile</item>
+        <item>Categories</item>
+        <item>Competition</item>
+        <item>Connect</item>
+        <item>Contact Us</item>
+        <item>About Us</item>
+    </string-array>
+
+    <string-array name="navDrawerIcons">
+
+        <item>@drawable/ic_profile</item>
+        <item>@drawable/ic_profile</item>
+        <item>@drawable/ic_profile</item>
+        <item>@drawable/ic_profile</item>
+        <item>@drawable/ic_profile</item>
+        <item>@drawable/ic_profile</item>
+
+
+    </string-array>
 </resources>
