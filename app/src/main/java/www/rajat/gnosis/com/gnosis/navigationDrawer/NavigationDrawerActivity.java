@@ -1,4 +1,4 @@
-package www.rajat.gnosis.com.gnosis.ui;
+package www.rajat.gnosis.com.gnosis.navigationDrawer;
 
 import android.content.res.TypedArray;
 import android.support.v4.app.Fragment;

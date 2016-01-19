@@ -14,6 +14,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import www.rajat.gnosis.com.gnosis.R;
+import www.rajat.gnosis.com.gnosis.navigationDrawer.NavigationDrawerActivity;
 
 /**
  * A simple {@link Fragment} subclass.

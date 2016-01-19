@@ -1,4 +1,4 @@
-package www.rajat.gnosis.com.gnosis.ui;
+package www.rajat.gnosis.com.gnosis.navigationDrawer;
 
 
 import android.os.Bundle;

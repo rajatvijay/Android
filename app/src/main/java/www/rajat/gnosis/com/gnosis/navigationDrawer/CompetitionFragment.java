@@ -1,7 +1,5 @@
-package www.rajat.gnosis.com.gnosis.ui;
+package www.rajat.gnosis.com.gnosis.navigationDrawer;
 
-import android.content.Context;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -13,14 +11,14 @@ import www.rajat.gnosis.com.gnosis.R;
 /**
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
- * {@link CategoriesFragment.OnFragmentInteractionListener} interface
+ * {@link CompetitionFragment.OnFragmentInteractionListener} interface
  * to handle interaction events.
- * Use the {@link CategoriesFragment#newInstance} factory method to
+ * Use the {@link CompetitionFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class CategoriesFragment extends Fragment {
+public class CompetitionFragment extends Fragment {
 
-    public CategoriesFragment() {
+    public CompetitionFragment() {
         // Required empty public constructor
     }
 
@@ -30,11 +28,11 @@ public class CategoriesFragment extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment CategoriesFragment.
+     * @return A new instance of fragment CompetitionFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static CategoriesFragment newInstance() {
-        CategoriesFragment fragment = new CategoriesFragment();
+    public static CompetitionFragment newInstance() {
+        CompetitionFragment fragment = new CompetitionFragment();
         Bundle args = new Bundle();
         fragment.setArguments(args);
         return fragment;
@@ -49,6 +47,6 @@ public class CategoriesFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_categories, container, false);
+        return inflater.inflate(R.layout.fragment_competition, container, false);
     }
 }
